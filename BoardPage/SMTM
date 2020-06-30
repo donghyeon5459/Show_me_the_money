@@ -1,0 +1,9 @@
+CREATE TABLE Board (
+    boardID INT,
+    Title VARCHAR(50),
+    userID VARCHAR(20),
+    Date DATETIME,
+    Content VARCHAR(2048),
+    bbsAvailable INT,
+    PRIMARY KEY (bbsID)
+) 

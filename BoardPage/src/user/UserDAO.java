@@ -31,15 +31,15 @@ public class UserDAO {
 			rs = pstmt.executeQuery();
 			if (rs.next()) {
 				if(rs.getString(1).contentEquals(userPassword))
-						return -1; // 로그인 성공  
+						return -1; // 濡쒓렇�씤 �꽦怨�  
 				else 
-					return 0; // 비밀번호 불일치
+					return 0; // 鍮꾨�踰덊샇 遺덉씪移�
 			}
-			return -1; // 아이디가 없음
+			return -1; // �븘�씠�뵒媛� �뾾�쓬
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return -2; //데이터베이스 오류 
+		return -2; //�뜲�씠�꽣踰좎씠�뒪 �삤瑜� 
 	}
 	
 	public int join(User user) {
