@@ -15,7 +15,7 @@ public class UserDAO {
 		try {
 			String dbURL = "jdbc:mysql://localhost:3306/SMTM";
 			String dbID = "root";
-			String dbPassword = "Xorbs505!";
+			String dbPassword = "julie0928!";
 			Class.forName("com.mysql.jdbc.Drvier");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 		}catch(Exception e) {
