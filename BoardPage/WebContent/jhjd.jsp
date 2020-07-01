@@ -5,9 +5,22 @@
 <%@ page import="org.openqa.selenium.chrome.ChromeDriver" %>
 <%@ page import="org.openqa.selenium.chrome.ChromeOptions" %>
  --%>
- <%@ page import="selenium" %>
+ <%@ page import="selenium.selenium" %>
  
-<% 
-
-
-%>
+ 
+ <html>
+ 
+ <head>
+ 
+ 
+ </head>
+ <body>
+ 
+	<% 
+		selenium test = new selenium();
+	%> 
+ </body>
+	
+ 
+ 
+ </html>
