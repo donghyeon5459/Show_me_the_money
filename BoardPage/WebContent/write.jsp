@@ -7,7 +7,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device" initial-scale="1">
-<link rel="stylesheet" href="css/bootstrap.css">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 <title>JSP 게시판 웹 사이트</title>
 </head>
 <body>
@@ -80,17 +81,18 @@
  			</thead>
  			<tbody>
  				<tr>
- 					<td><input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" maxlength="50"></td>
+ 					<td><input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" maxlength="50" style='display : block;
+margin : 0 auto;'></td>
  				</tr>
  				<tr>
- 					<td><textarea class="form-control" placeholder="글 내용" name="bbsContent" maxlength="2048" style= "heigh:350px; width:1000px"></textarea></td>
+ 					<td><textarea class="form-control" placeholder="글 내용" name="bbsContent" maxlength="2048" style= "heigh:3500px; width:1000px; rows=100; display : block;
+margin : 0 auto;"></textarea></td>
  				</tr>
- 				<tr>	
- 					<td><textarea class="form-control" placeholder="글 내용" name="bbsContent" maxlength="2048" style="height: 350px; width:1000px"></textarea></td>	 
- 				</tr>
+ 				
  			</tbody>
  		</table>
- 			<input type="submit" class="btn btn-primary pull-right" value="글쓰기">
+ 			<input type="submit" class="btn btn-primary pull-right" value="글쓰기" style='display : block;
+margin : 0 auto;'>
  		</form>
  	</div>
  </div>

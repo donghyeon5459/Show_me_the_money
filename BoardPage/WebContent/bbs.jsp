@@ -7,7 +7,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device" initial-scale="1">
-<link rel="stylesheet" href="css/bootstrap.css">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 <title>JSP 게시판 웹 사이트</title>
 </head>
 <body>
