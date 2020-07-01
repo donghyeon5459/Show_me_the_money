@@ -15,11 +15,7 @@ public class UserDAO {
 		try {
 			String dbURL = "jdbc:mysql://localhost:3306/SMTM";
 			String dbID = "root";
-<<<<<<< Updated upstream
 			String dbPassword = "Xorbs505!";
-=======
-			String dbPassword = "1234";
->>>>>>> Stashed changes
 			Class.forName("com.mysql.jdbc.Drvier");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 		}catch(Exception e) {
