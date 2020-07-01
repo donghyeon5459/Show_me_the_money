@@ -1,6 +1,8 @@
 CREATE DATABASE SMTM;
 
-use SMTM;
+USE SMTM;
+
+SET GLOBAL time_zone = '+3:00';
 
 CREATE TABLE BBS (
 	bbsID INT,
