@@ -1,4 +1,8 @@
-CREATE DATABASE SMTM
+CREATE DATABASE SMTM;
+
+USE SMTM;
+
+SET GLOBAL time_zone = '+3:00';
 
 CREATE TABLE BBS (
 	bbsID INT,
@@ -9,7 +13,7 @@ CREATE TABLE BBS (
 	bbsAvailable INT,
 	PRIMARY KEY (bbsID)
 	
-)
+);
 
 CREATE TABLE USER(
 	userID VARCHAR(20),
@@ -18,4 +22,4 @@ CREATE TABLE USER(
 	userGender VARCHAR(20),
 	userEmail VARCHAR(50),
 	PRIMARY KEY(userID)	
-)
+);
