@@ -18,6 +18,7 @@
  
 	<% 
 		selenium test = new selenium();
+	
 	%> 
  </body>
 	
